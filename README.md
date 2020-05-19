@@ -12,7 +12,8 @@ then access ' localhost:9810/test.php ' by brower
 # question2
 
 /**
-    $this->greeter = new \MyGreeter\Client();
+    $this->greeter = new \MyGreeter\Client();  
+    
     With dependency injection, this class is more stable, loosely coupled, and in line with object-oriented design principles
 
     /**
